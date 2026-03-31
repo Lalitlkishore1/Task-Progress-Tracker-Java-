@@ -1,0 +1,75 @@
+Project Overview
+
+This project is a Task Progress Tracker developed using Java Swing.
+It allows users to add tasks, track progress, mark tasks as completed, and delete tasks using a graphical user interface.
+
+The system simulates a real-world task management tool where tasks are dynamically updated and progress is tracked using threads.
+
+Objectives
+Understand Java GUI development using Swing
+Implement task tracking system
+Use threads for progress updates
+Manage tasks using collections
+Build an interactive application
+
+Tools & Technologies
+Java
+JDK 8 or above
+Swing (GUI)
+VS Code / Eclipse / IntelliJ
+
+Modules Used
+javax.swing → for GUI components
+java.awt → for layout and design
+java.util.ArrayList → for storing tasks
+java.util.HashMap → for storing task progress
+
+Project Description
+The application allows users to manage tasks with the following features:
+Add new tasks
+Track progress (0% to 100%)
+Mark tasks as completed
+Delete tasks
+
+Each task’s progress is updated using threads, simulating real-time task execution.
+
+The GUI provides an easy-to-use interface with buttons and task lists.
+
+
+Key Concepts Used
+Java Swing (GUI)
+Multithreading
+ArrayList
+HashMap
+Event Handling
+
+Algorithm
+Start the program
+Open GUI window
+Enter task name
+Click Add Task
+
+Select a task
+Click Start Progress
+Update progress using thread
+
+Click Mark Completed
+Click Delete Task if needed
+
+Repeat until exit
+
+Features
+GUI-based application
+Add and manage tasks
+Real-time progress tracking
+Multithreading implementation
+Mark tasks as completed
+Delete tasks
+User-friendly interface
+
+Result
+The system successfully manages tasks and tracks their progress using a graphical interface and multithreading.
+
+Conclusion
+This project demonstrates how Java Swing and multithreading can be used to build an interactive task management system.
+It provides practical knowledge of GUI design, event handling, and concurrent programming.
